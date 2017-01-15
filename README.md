@@ -36,7 +36,7 @@ Usage
 -----
 `$ ./convert_py2cmd [target file].py [command you named]`
 
-try with example [test.py]:
+try with example [test.py](./test.py):
 ```
 $ ./convert_py2cmd test.py pytest
 --------------------------------------------------------
