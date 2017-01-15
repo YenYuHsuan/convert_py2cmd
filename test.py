@@ -1,0 +1,1 @@
+print("This Python file (test.py) is converted to linux command [$ pytest]!!!")
