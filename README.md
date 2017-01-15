@@ -5,19 +5,19 @@ a simple shell for convert the .py file into linux command.
 
 File Organization
 -----------------
->Convert_py2cmd
+>Convert_py2cmd  
 >|  
->|--convert_py2cmd.sh *# source code*
+>|--convert_py2cmd.sh *# source code*  
 >|  
->|--\[target file\].py *# the file you want to convert*
+>|--\[target file\].py *# the file you want to convert*  
 >|  
->|--\[output cmd file\]  *# the command file you want*
+>|--\[output cmd file\]  *# the command file you want*  
 
 Check Python Path
 ------------
 This converter is for Python at path `/usr/bin/python`
 Please check your python path by `$ which python`:
-```bash
+```
 #Check python path if you are already installed
 $ which python
 /usr/bin/python
@@ -25,7 +25,7 @@ $ which python
 
 Installation
 ------------
-```bash
+```
 $ git https://github.com/YenYuHsuan/convert_py2cmd.git
 $ cd convert_py2cmd
 $ chmod +x convert_py2cmd.sh
@@ -37,7 +37,7 @@ Usage
 `$ ./convert_py2cmd [target file].py [command you named]`
 
 try with example [test.py]:
-```sh
+```
 $ ./convert_py2cmd test.py pytest
 --------------------------------------------------------
 Transform test.py to linux command 'pytest'!!
