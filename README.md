@@ -6,11 +6,11 @@ a simple shell for convert the .py file into linux command.
 File Organization
 -----------------
 >Convert_py2cmd
->|
+>|  
 >|--convert_py2cmd.sh *# source code*
->|
+>|  
 >|--\[target file\].py *# the file you want to convert*
->|
+>|  
 >|--\[output cmd file\]  *# the command file you want*
 
 Check Python Path
