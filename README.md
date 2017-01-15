@@ -7,17 +7,17 @@ File Organization
 -----------------
 >Convert_py2cmd  
 >|  
->|--convert_py2cmd.sh *# source code*  
+>|--convert_py2cmd.sh     *# source code*  
 >|  
->|--\[target file\].py *# the file you want to convert*  
+>|--\[target file\].py    *# the file you want to convert*  
 >|  
->|--\[output cmd file\]  *# the command file you want*  
+>|--\[output cmd file\]   *# the command file you want*  
 
 Check Python Path
 ------------
 This converter is for Python at path `/usr/bin/python`
 Please check your python path by `$ which python`:
-```
+```bash
 #Check python path if you are already installed
 $ which python
 /usr/bin/python
