@@ -7,11 +7,11 @@ File Organization
 -----------------
 Convert_py2cmd
 |
-|--convert_py2cmd.sh *#source code
+|--convert_py2cmd.sh *#source code*
 |
-|--\[target file\].py *#the file you want to convert
+|--\[target file\].py *#the file you want to convert*
 |
-|--\[output cmd file\]  *#the command file you want
+|--\[output cmd file\]  *#the command file you want*
 
 Check Python Path
 ------------
